@@ -1,6 +1,5 @@
 {{ define "head" }}
 <meta name="description" content={{ .Site.Params.description }}>
-<link rel="stylesheet" href="{{ .Site.Params.localStaticPath }}/css/index.css" media="all">
 {{range $i, $e := .Site.Params.customCss}}
 <link rel="stylesheet" href="{{ $e }}" media="all">
 {{end}}

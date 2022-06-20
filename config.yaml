@@ -303,7 +303,7 @@ params:
     btnName: Mail me
 
   footer:
-    recentPosts: false
+    recentPosts: true
     # socialNetworks:
     #   github: https://github.com/marco-silvestri
     #   linkedin: https://www.linkedin.com/in/marco-silvestri-webdev/
