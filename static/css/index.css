@@ -527,3 +527,18 @@ header .navbar {
 #contact .btn:focus {
     box-shadow: none !important;
 }
+
+.footer {
+    position: fixed;
+    width: 100%;
+    left: 0;
+    bottom: 0;
+    color: maroon;
+}
+
+img[src$='#center'] {
+    display: block;
+    margin: 1.0rem auto;
+    max-width: 100%;
+    height: auto;
+}
