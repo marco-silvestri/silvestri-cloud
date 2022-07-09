@@ -3,6 +3,12 @@ title: "My Redox build - part 1"
 date: 2022-07-08T22:57:38+02:00
 draft: false
 toc: false
+images:
+- "https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657313651/silvestri-dot-cloud/assets/1657313281672_pjkowo.jpg"
+series: []
+tags: ['diy','mechanical keyboard', 'qmk']
+audio: []
+videos: []
 ---
 #### Sasa!
 I must admit that I am a custom made keyboard enthusiast, and over the past year this hobby has really kept me busy.
