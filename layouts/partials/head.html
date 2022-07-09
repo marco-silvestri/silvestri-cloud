@@ -8,15 +8,14 @@
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Alata&family=League+Spartan:wght@100;400&family=Roboto:wght@100;300;400;500;700;900&display=swap" rel="stylesheet">
 
-<!-- font configuration -->
-<link rel="stylesheet" href="css/font.css" media="all">
-
 <!-- Internal templates -->
 {{ template "_internal/google_analytics_async.html" . }}
 {{ template "_internal/opengraph.html" . }}
 {{ template "_internal/twitter_cards.html" . }}
 
 <!-- stylesheets -->
+<!-- font configuration -->
+<link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/font.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/bootstrap-5/css/bootstrap.min.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/header.css" media="all">
 <link rel="stylesheet" href="{{ .Site.Params.staticPath }}/css/footer.css" media="all">
