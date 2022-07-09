@@ -3,13 +3,14 @@ title: "My Redox build - part 1"
 date: 2022-07-08T22:57:38+02:00
 draft: false
 toc: false
-images:
-- "https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657313651/silvestri-dot-cloud/assets/1657313281672_pjkowo.jpg"
 series: []
 tags: ['diy','mechanical keyboard', 'qmk']
 audio: []
 videos: []
 ---
+
+<meta property="og:image" content="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657313651/silvestri-dot-cloud/assets/1657313281672_pjkowo.jpg" />
+
 #### Sasa!
 I must admit that I am a custom made keyboard enthusiast, and over the past year this hobby has really kept me busy.
 For almost a year my daily driver has been the [Redox Wireless keyboard](https://github.com/mattdibi/redox-keyboard), an open source split mechanical keyboard created by Mattia Dal Ben. I've also contributed to this project creating my [own case](https://github.com/marco-silvestri/redox-big-battery), that can carry 2 18650 batteries. I mean, the bigger the better!
