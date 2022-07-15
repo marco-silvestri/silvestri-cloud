@@ -89,8 +89,8 @@ params:
   # Hero
   hero:
     enable: true
-    intro: "Hi, my name is"
-    title: "Marco."
+    intro: "Howdy!"
+    title: "I am Marco."
     subtitle: "Welcome to my cloud"
     content: "I travelled the world only to discover that building things for the web is my passion. I am a geek, and I would love to share this with you."
     image: https://res.cloudinary.com/marco-silvestri/image/upload/v1655658508/silvestri-dot-cloud/profile_pic_cmhr0h.jpg
@@ -106,6 +106,8 @@ params:
           url: https://www.linkedin.com/in/marco-silvestri-webdev/
         - icon: fas fa-envelope
           url: mailto:marco@silvestri.cloud
+        - icon: fa-solid fa-compact-disc
+          url: https://www.marcosilvestriproducer.com/
       # customIcons:
       #   - icon: /fav.png
       #     url: "https://example.com"
