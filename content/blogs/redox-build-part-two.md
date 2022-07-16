@@ -4,7 +4,7 @@ date: 2022-07-15T23:18:03+02:00
 draft: false
 toc: false
 images:
-- "https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657313651/silvestri-dot-cloud/assets/1657313281672_pjkowo.jpg"
+- "https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498714_pgvync.jpg"
 series: []
 tags: ['diy','mechanical keyboard', 'qmk']
 audio: []
@@ -17,7 +17,7 @@ Despite following the instructions slavishly , I botched a couple of steps, whic
 
 I was already aware that this build would take several hours. In these cases, set your playlist in advance and brew yourself a hearty cup of coffee, you are gonna need it sooner than you think.
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_684/v1657970819/silvestri-dot-cloud/assets/redox-part-2/1657970498816_mnvbqy.jpg" alt="Coffee hug" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_600/v1657970819/silvestri-dot-cloud/assets/redox-part-2/1657970498816_mnvbqy.jpg" alt="Coffee hug" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
 With the critical priorities sorted, the first step the official guide suggests flashing the QMK firmware onto the 2 Arduino boards.
 I had already installed the QMK toolchain, so I just plugged the first board, compiled the firmware and...with a cryptic error, avrdude decided to ditch me:
@@ -121,24 +121,24 @@ I flashed the boards, checked that all was good and moved on.
 
 Then I bent all the 70 diodes and put them on the PCBs. Having applied some masking tape to keep the diodes in place, I flipped the boards. I then applied a generous dose of flux on every soldering point and soldered them on the PCBs. Quickly, I proceeded with the momentary switches, the PJ-320A and the RGB headers.
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_69,w_1227/v1657970827/silvestri-dot-cloud/assets/redox-part-2/1657970498793_ynvo1t.jpg" alt="Mounted diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_69,w_700/v1657970827/silvestri-dot-cloud/assets/redox-part-2/1657970498793_ynvo1t.jpg" alt="Mounted diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1289/v1657970815/silvestri-dot-cloud/assets/redox-part-2/1657970498776_uqfxek.jpg" alt="Taped diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970815/silvestri-dot-cloud/assets/redox-part-2/1657970498776_uqfxek.jpg" alt="Taped diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970828/silvestri-dot-cloud/assets/redox-part-2/1657970498756_mlzajz.jpg" alt="Flipped diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970828/silvestri-dot-cloud/assets/redox-part-2/1657970498756_mlzajz.jpg" alt="Flipped diodes" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970821/silvestri-dot-cloud/assets/redox-part-2/1657970498725_g3vzqu.jpg" alt="PCB with components" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970821/silvestri-dot-cloud/assets/redox-part-2/1657970498725_g3vzqu.jpg" alt="PCB with components" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
 Adhering to the guide I proceeded to assemble the WS2812. I cut 2 of them and checked the fit on the case. I trimmed a couple of dupont cables, applied the necessary soldering and placed the 2 leds.
 Here, however, I applied an old trick by the book. On the left side led I put a 330Ω resistor between the header and the DIN, giving the WS2812 some sort of protection.
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970815/silvestri-dot-cloud/assets/redox-part-2/1657970498745_wmauxp.jpg" alt="Detail of the resistor" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970815/silvestri-dot-cloud/assets/redox-part-2/1657970498745_wmauxp.jpg" alt="Detail of the resistor" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498734_uh8kb4.jpg" alt="Cabled led" class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498734_uh8kb4.jpg" alt="Cabled led" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
 Finally time for the switches arrived! I created a nerdy 3-layers sandwich: switches, front plate and PCB. A touch of flux and 150 solderings later, I had something that resembled a keyboard.
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970818/silvestri-dot-cloud/assets/redox-part-2/1657970636510_v5o4ys.jpg" alt="Keyboard sandwich class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970818/silvestri-dot-cloud/assets/redox-part-2/1657970636510_v5o4ys.jpg" alt="Keyboard sandwich" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
 I then soldered the micro-controller headers and this was the first huge mistake I made: I soldered the boards without having a check first. The case would not close!
 On the left side the fix was quick and easy since all I had to do was trim the headers and change a tenting kit screw with a shorter one.
@@ -160,7 +160,7 @@ Of course I chose to use the extra PCB! What's the point in cutting corners when
 So I salvaged the switches and the board and soldered everything on the fresh PCB.
 A Few hours and a few hundreds of soldering later and the keyboard was ready! I plugged it in and BOOM, it worked!
 
-<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_1200/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498714_pgvync.jpg" alt="Keyboard sandwich class="img-fluid rounded-lg mx-auto d-block pb-5">
+<img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498714_pgvync.jpg" alt="Keyboard done!" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
 In the next post I'll show you how I customized the firmware, in order to add the layer detection and show it on the LED.
 
