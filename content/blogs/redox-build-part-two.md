@@ -158,7 +158,7 @@ I took a deep breath and had to make a decision: do I fix the track with a flyin
 Of course I chose to use the extra PCB! What's the point in cutting corners when doing something for yourself, moreover as a hobby?
 
 So I salvaged the switches and the board and soldered everything on the fresh PCB.
-A Few hours and a few hundreds of soldering later and the keyboard was ready! I plugged it in and BOOM, it worked!
+A Few hours and a few hundreds of soldering later and the keyboard was ready! I plugged it in and BOOM, it worked! So, I dressed it with my handmade keycaps, vaguely inspired by the [Nantucket Selectric set](https://enjoykeycap.github.io/assets/images/sa-keycaps/nantucketselectric/rendering_pics/006752dcd88314cc4da2b0fdb75ad706.jpg) and took this pic:
 
 <img src="https://res.cloudinary.com/marco-silvestri/image/upload/c_scale,q_70,w_700/v1657970824/silvestri-dot-cloud/assets/redox-part-2/1657970498714_pgvync.jpg" alt="Keyboard done!" class="img-fluid rounded-lg mx-auto d-block pb-5">
 
